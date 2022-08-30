@@ -13,6 +13,8 @@
 		1824D0BD28B4AC74000E122A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1824D0BB28B4AC74000E122A /* Main.storyboard */; };
 		1824D0BF28B4AC76000E122A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1824D0BE28B4AC76000E122A /* Assets.xcassets */; };
 		1824D0C228B4AC76000E122A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1824D0C028B4AC76000E122A /* LaunchScreen.storyboard */; };
+		1824D0CA28B4AC91000E122A /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824D0C928B4AC91000E122A /* Points.swift */; };
+		1824D0CE28B4BD9F000E122A /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1824D0CD28B4BD9F000E122A /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1824D0BE28B4AC76000E122A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1824D0C128B4AC76000E122A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1824D0C328B4AC76000E122A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1824D0C928B4AC91000E122A /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		1824D0CD28B4BD9F000E122A /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				1824D0BE28B4AC76000E122A /* Assets.xcassets */,
 				1824D0C028B4AC76000E122A /* LaunchScreen.storyboard */,
 				1824D0C328B4AC76000E122A /* Info.plist */,
+				1824D0C928B4AC91000E122A /* Points.swift */,
+				1824D0CD28B4BD9F000E122A /* DetailedViewController.swift */,
 			);
 			path = taipeiTOur;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1824D0CA28B4AC91000E122A /* Points.swift in Sources */,
 				1824D0BA28B4AC74000E122A /* ViewController.swift in Sources */,
+				1824D0CE28B4BD9F000E122A /* DetailedViewController.swift in Sources */,
 				1824D0B628B4AC74000E122A /* AppDelegate.swift in Sources */,
 				1824D0B828B4AC74000E122A /* SceneDelegate.swift in Sources */,
 			);
